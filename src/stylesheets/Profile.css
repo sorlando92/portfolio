@@ -1,0 +1,75 @@
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  text-align: left;
+}
+
+.profile-top h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+}
+
+.profile-top h2 {
+  font-size: 1.2em;
+  margin-bottom: 1em;
+}
+
+.profile-top p {
+  font-size: 1em;
+  margin-bottom: 2em;
+}
+
+.profile-nav a {
+  display: block;
+  text-decoration: none;
+  margin-bottom: 1em;
+  color: whitesmoke;
+}
+
+.profile-nav a:hover {
+  font-size: large;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.profile-social {
+  display: flex;
+  justify-content: left;
+}
+
+.profile-social a {
+  margin: 0 10px;
+  font-size: 1.5em;
+}
+
+.social-links {
+  margin-top: 10px;
+}
+
+i.fab {
+  font-size: 24px;
+  margin-right: 15px;
+  color: whitesmoke;
+}
+
+i.fab:hover {
+  font-size: large;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+h1 {
+  margin-bottom: 5px;
+}
+
+h4 {
+  margin: 0;
+}
+
+@media (max-width: 900px) {
+  .profile-nav {
+    display: none;
+  }
+}

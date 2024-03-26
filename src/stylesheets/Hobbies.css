@@ -1,0 +1,32 @@
+.hobby-card {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  transition: box-shadow 0.3s ease;
+}
+
+.hobby-card:hover {
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
+}
+
+.hobby-info {
+  margin-left: 1rem;
+  flex-grow: 1;
+}
+
+.hobby-info h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.hobby-image {
+  height: 100px;
+  width: auto;
+  flex-shrink: 0;
+}
+
+.hobby-image img {
+  height: 100%;
+  width: auto;
+}
