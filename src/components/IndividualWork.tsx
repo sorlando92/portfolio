@@ -12,21 +12,6 @@ type WorkExperience = {
 
 const workExperiences: WorkExperience[] = [
   {
-    period: "2022 — 2024",
-    position: "Product Manager, SugarWOD",
-    company: "Daxko, LLC",
-    description: "Successfully managed an international cross-functional team for a SaaS B2B/B2C/B2B2C consumer fitness app, serving 300k active weekly users. Through strategic operational streamlining, I achieved a remarkable cost reduction exceeding $60,000. My close collaboration with engineering teams ensured prioritization of technical initiatives, optimizing resource allocation and driving project success.",
-    link: "https://www.sugarwod.com/",
-    skills: ["Jira", "Confluence", "Figma", "Agile", "Scrum", "Firebase", "GitLab"],
-  },
-  {
-    period: "2019 — 2022",
-    position: "Fitness Sabatical",
-    company: "Self-Employed",
-    description: "Following my mother's passing, I dedicated time to my passion for health and fitness, leveraging my software engineering and product management background to develop digital platforms aimed at athletic performance and wellness. Working with over 1,000 athletes enhanced my adaptability and communication skills, vital for collaborative software development. This experience enriched my journey and reinforced my holistic problem-solving approach as a software engineer.",
-    skills: ["Communication", "Adaptability", "Empathy", "Time Management"],
-  },
-  {
     period: "2017 — 2019",
     position: "Lead Software Engineer",
     company: "Fast Enterprises, LLC • Salem, OR",
@@ -48,6 +33,21 @@ const workExperiences: WorkExperience[] = [
     company: "Fast Enterprises, LLC • Santa Fe, NM",
     description: "As a Training Coordinator at Fast Enterprises, LLC in Santa Fe, NM, I collaborated with a team of 5 trainers to develop a comprehensive three-tier training course for over 800 end users. I took the lead in designing and creating computer-based training modules, training videos for product launch, and product guides, all aimed at facilitating the successful launch of our software product. Through effective training strategies and materials, I ensured end users were equipped with the knowledge and skills needed to maximize the value of our software solutions.",
     skills: ["Organizational Change", "Collaboration"],
+  },
+  {
+    period: "2022 — 2024",
+    position: "Product Manager, SugarWOD",
+    company: "Daxko, LLC",
+    description: "Successfully managed an international cross-functional team for a SaaS B2B/B2C/B2B2C consumer fitness app, serving 300k active weekly users. Through strategic operational streamlining, I achieved a remarkable cost reduction exceeding $60,000. My close collaboration with engineering teams ensured prioritization of technical initiatives, optimizing resource allocation and driving project success.",
+    link: "https://www.sugarwod.com/",
+    skills: ["Jira", "Confluence", "Figma", "Agile", "Scrum", "Firebase", "GitLab"],
+  },
+  {
+    period: "2019 — 2022",
+    position: "Fitness Sabatical",
+    company: "Self-Employed",
+    description: "Following my mother's passing, I dedicated time to my passion for health and fitness, leveraging my software engineering and product management background to develop digital platforms aimed at athletic performance and wellness. Working with over 1,000 athletes enhanced my adaptability and communication skills, vital for collaborative software development. This experience enriched my journey and reinforced my holistic problem-solving approach as a software engineer.",
+    skills: ["Communication", "Adaptability", "Empathy", "Time Management"],
   },
 ];
 
