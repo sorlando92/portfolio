@@ -36,7 +36,7 @@ const Hobbies: React.FC = () => {
         <h3>Hobbies</h3>
         {hobbies.map((hobby, index) => {
           return (
-            <div className="hobby-card" key={index}>
+            <div className="hobby-card hover-effect" key={index}>
               <div className="hobby-image">
                 <img src={hobby.image} alt="" />
               </div>

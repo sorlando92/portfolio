@@ -7,10 +7,6 @@
   transition: box-shadow 0.3s ease;
 }
 
-.work-experience:hover {
-  box-shadow: 5px 0px 8px rgba(255, 255, 255, 0.2);
-}
-
 .work-period {
   text-align: left;
   white-space: nowrap;

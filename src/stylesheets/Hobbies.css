@@ -6,10 +6,6 @@
   transition: box-shadow 0.3s ease;
 }
 
-.hobby-card:hover {
-  box-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
-}
-
 .hobby-info {
   margin-left: 1rem;
   flex-grow: 1;

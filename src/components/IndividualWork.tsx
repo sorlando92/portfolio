@@ -55,7 +55,7 @@ const IndividualWork: React.FC = () => {
   return (
     <>
       {workExperiences.map((experience, index) => (
-        <div className="work-experience" key={index}>
+        <div className="work-experience hover-effect" key={index}>
           <div className="work-period">{experience.period}</div>
           <div className="work-details">
             <h4>
